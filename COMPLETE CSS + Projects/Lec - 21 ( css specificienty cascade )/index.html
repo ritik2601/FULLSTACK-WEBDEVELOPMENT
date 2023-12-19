@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        /* The specificity of this selector is 1 */
+          h1{
+            color: aqua;
+        }
+
+        /* The specificity of this selector is 10 */
+        .yellow{
+            color: purple;
+        }
+
+        /* The specificity of this selector is 10 */
+           .cred{
+            color: blanchedalmond;
+           }
+
+        /* The specificity of this selector is 10 */
+        .purple{
+            color: rgb(238, 13, 84);
+        }
+      
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred purple"> CSS Specificity</h1>
+    </div>
+</body>
+</html>
